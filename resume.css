@@ -71,4 +71,13 @@ a#pdf:hover { background: #222; }
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
 
+.image {
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.under-image {
+	margin-left: 48px;
+}
 
